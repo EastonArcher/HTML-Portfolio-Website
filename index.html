@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Easton's Personal Website</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://kit.fontawesome.com/12ed3f874e.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <div id="header">
+    <div class="container">
+      <nav>
+        <img src="images/logo.png" class="logo">
+        <ul id="sidemenu">
+          <li><a href="#header">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#content">Contact</a></li>
+          <i class="fas fa-times" onclick="closemenu()"></i>
+        </ul>
+        <i class="fas fa-bars" onclick="openmenu()"></i>
+      </nav>
+      <div class="header-text">
+        <p>Hi,</p>
+        <h1>I'm <span>Easton Archer</span><br></h1>
+        <h2>Full Stack Developer</h2>
+      </div>
+    </div>
+  </div>
+<!---------about----------->
+  <div id="about">
+    <div class="container">
+      <div class="row">
+        <div class="about-col-1">
+          <img src="images/user.png">
+        </div>
+        <div class="about-col-2">
+        <h1 class="sub-title">About Me</h1>
+        <p>Dedicated and results-driven Senior at Texas Tech University, 
+          pursuing a Bachelor's degree in Computer Science from the esteemed 
+          Edward E. Whitacre Jr. College of Engineering. Complemented by a 
+          minor in Mathematics through the Department of Mathematics and 
+          Statistics, with an anticipated graduation date in August 2024. 
+          I am able to demonstrate a strong academic foundation, coupled 
+          with a passion for leveraging technology to solve complex problems. 
+          Proven ability to adapt to dynamic environments and collaborate 
+          effectively in team settings. Eager to apply theoretical knowledge 
+          and practical skills in a professional setting upon graduation.</p>
+
+       <!---------Change open tab for different sections----------->
+        <div class="tab-titles">
+          <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+          <p class="tab-links" onclick="opentab('projects')">Projects</p>
+          <p class="tab-links" onclick="opentab('education')">Education</p>
+        </div>
+        <div class="tab-contents active-tab" id="skills">
+          <ul>
+            <li><span>UI/UX</span><br>Passionate UI/UX designer dedicated to 
+              creating intuitive, user-centric experiences. Blend of creativity, 
+              empathy, and technical expertise for impactful design solutions.</li>
+            <li><span>Web Development</span><br>Passionate web developer skilled 
+              in front-end and back-end technologies. Committed to creating seamless, 
+              user-friendly experiences through innovative and efficient coding.</li>
+            <li><span>Game Development</span><br>Passionate game developer with a knack 
+              for creating immersive experiences. From coding to design, I bring virtual 
+              worlds to life.</li>
+          </ul>
+        </div>
+        <div class="tab-contents" id="projects">
+          <ul>
+            <li><span>Lexical Analyzer</span><br>Created 
+              a C-based lexical analyzer using Backus-Naur form, matching 
+              lexemes to tokens, handling delimiters, and identifying 
+              unknown lexemes. </li>
+            <li><span>HTML Fighting Game</span><br>JavaScript-powered 2-player 
+              HTML fighting game with character sprites, animations, physics, 
+              and game logic, deployed on GitHub and Netlify.</li>
+            <li><span>Lottery Purchase System Website</span><br>School Project 
+              HTML Website designed to allow individuals to buy, view, and claim 
+              lottery tickets. Adheres to all regulations and provides an improved
+              customer experience</li>
+            <li><span>HTML Memory Card Game</span><br>Engaging project showcasing 
+              responsive design, JavaScript functionality, and dynamic card 
+              interactions</li>
+          </ul>
+        </div>
+        <div class="tab-contents" id="education">
+          <ul>
+            <li><span>2020-Present</span><br>Computer Science Student at Texas Tech University, in Lubbock, Texas</li>
+            <li><span>2016-2020</span><br>High School Diploma from Lake Travis High School, in Austin, Texas</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!---------------Services--------------->
+<div id="services">
+  <div class="container">
+    <h1 class="sub-title">Services</h1>
+    <div class="services-list">
+      <div>
+        <i class="fa-solid fa-code"></i>
+        <h2>Web Design</h2>
+        <p>
+          Crafted a compelling personal portfolio HTML 
+          website showcasing proficiency in web design. 
+          Demonstrated skills in UI/UX, responsiveness, 
+          and creative design, creating an engaging 
+          online presence.
+        </p>
+        <a href="https://codepen.io/Easton-Archer">Learn More</a>
+      </div>
+      <div>
+        <i class="fa-solid fa-crop-simple"></i>
+        <h2>UI Design</h2>
+        <p>
+          Showcased exceptional UI design skills on my 
+          portfolio website, demonstrating a keen eye 
+          for aesthetics, user experience, and proficiency 
+          in industry-standard design tools.
+        </p>
+        <a href="https://codepen.io/Easton-Archer">Learn More</a>
+      </div>
+      <div>
+        <i class="fa-solid fa-gamepad"></i>
+        <h2>Game Design</h2>
+        <p>
+          Showcasing proficiency in JavaScript game design 
+          on my portfolio, featuring creative game mechanics, 
+          engaging user experiences, and a strong foundation 
+          in web development.
+        </p>
+        <a href="https://app.netlify.com/teams/eastonarcher">Learn More</a>
+      </div>
+    </div>
+  </div>
+</div>
+<!-----------portfolio----------->
+<div id="portfolio">
+  <div class="container">
+    <h1 class="sub-title">My Work</h1>
+    <div class="work-list">
+      <div class="work">
+        <img src="images/work-1.png">
+        <div class="layer">
+          <h3>Website Redesigns</h3>
+          <p>Revamped website with modern design, enhanced user experience, 
+            and streamlined navigation for improved functionality and visual appeal. </p>
+            <a href="https://codepen.io/Easton-Archer"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+        </div>
+      </div>
+      <div class="work">
+        <img src="images/work-2.png">
+        <div class="layer">
+          <h3>UI Design</h3>
+          <p>Website UI design focuses on creating visually appealing, intuitive 
+            interfaces to enhance user experience, fostering seamless navigation and engagement.</p>
+            <a href="https://codepen.io/Easton-Archer"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+        </div>
+      </div>
+      <div class="work">
+        <img src="images/work-3.png">
+        <div class="layer">
+          <h3>Game Applications</h3>
+          <p>Immersive game apps with strategic challenges, 
+            and social features for an unparalleled gaming experience. </p>
+            <a href="https://app.netlify.com/teams/eastonarcher"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+        </div>
+      </div>
+    </div>
+    <a href="#" class="btn">See More</a>
+  </div>
+</div>
+<!---------------Contact--------------->
+<div id="content">
+  <div class="container">
+    <div class="row">
+      <div class="contact-left">
+        <h1 class="sub-title">Contact Me</h1>
+        <p><i class="fa-solid fa-paper-plane"></i>ea02archer@gmail.com</p>
+        <p><i class="fa-solid fa-square-phone"></i>(512) 825-6740</p>
+        <div class="social-icons">
+          <a href="https://www.linkedin.com/in/easton-archer/"><i class="fa-brands fa-linkedin"></i></a>
+          <a href="https://twitter.com/Easton_Archer_"><i class="fa-brands fa-twitter-square"></i></a>
+          <a href="https://www.instagram.com/easton.archer/?next=%2Fricci_samuele_28%2F"><i class="fa-brands fa-instagram"></i></a>
+          <a href="https://github.com/EastonArcher"><i class="fa-brands fa-github"></i></a>
+        </div>
+        <a href="images/resume.pdf" download class="btn btn2">Download Resume</a>
+      </div>
+      <div class="contact-right">
+        <form name="submit-to-google-sheet">
+          <input type="text" name="Name" placeholder="Your Name" required>
+          <input type="email" name="Email" placeholder="Your Email" required>
+          <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+          <button type="submit" class="btn btn2">Submit</button>
+        </form>
+        <span id="msg"></span>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+  var tablinks = document.getElementsByClassName("tab-links");
+  var tabcontents = document.getElementsByClassName("tab-contents");
+
+  function opentab(tabname){
+    for(tablink of tablinks){
+      tablink.classList.remove("active-link");
+    }
+    for(tabcontent of tabcontents){
+      tabcontent.classList.remove("active-tab");
+    }
+    event.currentTarget.classList.add("active-link");
+    document.getElementById(tabname).classList.add("active-tab");
+  }
+</script>
+
+<script>
+
+  var sidemenu = document.getElementById("sidemenu");
+
+  function openmenu(){
+    sidemenu.style.right = "0";
+  }
+  function closemenu(){
+    sidemenu.style.right = "-200px";
+  }
+
+</script>
+
+<script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbzd5dH39wNrKTObYbbFxr92RH725UZD67Lvbklm7RGPPZZu9PPgj0AGksF88fyVr8y9/exec'
+  const form = document.forms['submit-to-google-sheet']
+  const msg = document.getElementById("msg")
+
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => {
+        msg.innerHTML = "Message Sent"
+        setTimeout(function(){
+          msg.innerHTML = ""
+        },5000)
+        form.reset()
+      })
+      .catch(error => console.error('Error!', error.message))
+  })
+</script>
+
+</body>
+</html>
