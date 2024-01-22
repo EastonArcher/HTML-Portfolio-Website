@@ -1,7 +1,7 @@
 # Personal Portfolio Website
 
 ### Overview
-Dynamic portfolio showcasing skills and achievements which features a modern design with smooth navigation and engaging content. Built using HTML and CSS with FontAwesome for icons and JavaScript for interactive elements, this website serves as a portfolio and a display of UI Design
+This dynamic portfolio is a showcase of my skills and achievements, presenting a modern design with seamless navigation and engaging content. Created with HTML and CSS, it incorporates FontAwesome for icons and JavaScript for interactive elements. Whether you're exploring my UI design projects or getting to know more about me, this website is designed to provide an immersive and informative experience.
 <br>
 <br>
 Hosted here using GitHub Pages
