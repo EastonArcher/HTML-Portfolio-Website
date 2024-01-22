@@ -1,5 +1,7 @@
 # Personal Portfolio Website
 
+Welcome to my personal portfolio website! 🚀
+
 ## Overview
 This dynamic portfolio is a showcase of my skills and achievements, presenting a modern design with seamless navigation and engaging content. Created with HTML and CSS, it incorporates FontAwesome for icons and JavaScript for interactive elements.
 
