@@ -11,7 +11,7 @@ This dynamic portfolio is a showcase of my skills and achievements, presenting a
 * **Interactive Elements:** Experience the website's interactivity powered by JavaScript for a dynamic feel.<br>
 * **UI Design Showcase:** Explore a collection of my UI design projects, highlighting creativity and innovation.<br>
 
-## Hosting
+## 📫 Hosting
 This portfolio is hosted on GitHub Pages, making it easily accessible to anyone interested in viewing.
 <br>
 <br>
