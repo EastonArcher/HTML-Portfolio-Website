@@ -19,3 +19,4 @@ This portfolio is hosted on GitHub Pages, making it easily accessible to anyone 
 <br>
 <br>
 *Note: For the best experience, it is recommended to view this website in a web browser.*
+ 
