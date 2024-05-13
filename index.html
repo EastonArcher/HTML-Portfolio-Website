@@ -252,7 +252,11 @@
   const scriptURL = 'https://script.google.com/macros/s/AKfycbzd5dH39wNrKTObYbbFxr92RH725UZD67Lvbklm7RGPPZZu9PPgj0AGksF88fyVr8y9/exec'
   const form = document.forms['submit-to-google-sheet']
   const msg = document.getElementById("msg")
-
+  
+  document.addEventListener("DOMContentLoaded", function() {
+    document.querySelector(".tab-links[data-tab='skills']").click();
+  });
+  
   form.addEventListener('submit', e => {
     e.preventDefault()
     fetch(scriptURL, { method: 'POST', body: new FormData(form)})
