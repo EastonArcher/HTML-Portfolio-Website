@@ -254,8 +254,9 @@
 
   //Skills tab displays by default
   document.addEventListener("DOMContentLoaded", function() {
-    // Simulate a click on the "Skills" tab link
-    document.querySelector(".tab-links[data-tab='skills']").click();
+    // Add the active-tab class to the Skills tab content
+    document.querySelector(".tab-links[data-tab='skills']").classList.add("active-link");
+    document.getElementById("skills").classList.add("active-tab");
   });
   
   form.addEventListener('submit', e => {
